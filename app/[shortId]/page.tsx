@@ -3,6 +3,9 @@ import { redirect } from 'next/navigation';
 import { openDb } from '../../lib/db';
 
 export default async function ShortIdPage({ params }: { params: { shortId: string } }) {
+  if (!params) {
+    return (<p>Loading...</p>);
+  };
   const db = await openDb();
   const { shortId } = params;
 
