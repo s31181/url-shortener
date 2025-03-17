@@ -92,9 +92,9 @@ export default function Home() {
                   />
                   <CardActions>
                     <Typography variant="body1" sx={{ mt: 2 }}>
-                      Short URL: <Link href={`http://${item.ip}:3000/${item.shortId}`}>{`http://${item.ip}:3000/${item.shortId}`}</Link>
+                      Short URL: <Link href={`https://${item.ip}:3000/${item.shortId}`}>{`https://${item.ip}:3000/${item.shortId}`}</Link>
                     </Typography>
-                    <Button variant="contained" color="primary" onClick={() => navigator.clipboard.writeText(`http://${item.ip}:3000/${item.shortId}`)} style={{ marginLeft: '16px' }}>Copy Link</Button>
+                    <Button variant="contained" color="primary" onClick={() => navigator.clipboard.writeText(`https://${item.ip}:3000/${item.shortId}`)} style={{ marginLeft: '16px' }}>Copy Link</Button>
                   </CardActions>
                 </CardContent>
               </Card>
