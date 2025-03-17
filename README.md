@@ -10,7 +10,7 @@ This is a URL shortener application built with Next.js, TypeScript, and SQLite. 
 
 ## Prerequisites
 
-- Node.js (version 14 or later)
+- Node.js (version 20)
 - npm (version 6 or later)
 
 ## Installation
