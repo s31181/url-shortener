@@ -40,3 +40,37 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.menu-button {
+  background: none;
+  border: none;
+  margin: 10px 16px;
+
+  line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--foreground);
+    margin: 5px 0;
+  }
+}
+
+.image-container {
+  background-color: #062869;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.url-shortener-form {
+  display: flex;
+  gap: 10px;
+
+  .MuiFormControl-root {
+    margin: 0;
+  }
+
+  button.MuiButtonBase-root {
+    width: fit-content;
+  }
+}
