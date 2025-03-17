@@ -18,7 +18,7 @@ This is a URL shortener application built with Next.js, TypeScript, and SQLite. 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/url-shortener.git
+   git clone https://github.com/s31181/url-shortener.git
    cd url-shortener
    ```
 
@@ -56,10 +56,3 @@ This is a URL shortener application built with Next.js, TypeScript, and SQLite. 
 - **`components/`**: Contains React components used throughout the application.
 - **`lib/`**: Contains utility functions and database setup.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
